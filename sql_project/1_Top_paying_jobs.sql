@@ -1,5 +1,5 @@
 /*
-Question: what are the top paying data analyst jobs?
+Question: what are the top paying data analyst jobs in New York?
 - Identitfy the top 10 highest paying Data Analyst roles that are available
 - Focuses on job postings with specified salaries
 - Why? Highlight the top paying oppurtunities for Data Analysts, offering insights into employment
