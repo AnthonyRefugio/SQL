@@ -1,5 +1,5 @@
 /*
-Question: what are the top paying data analyst jobs in New York?
+Question: what are the top paying data analyst jobs in New York and remote?
 - Identitfy the top 10 highest paying Data Analyst roles that are available
 - Focuses on job postings with specified salaries
 - Why? Highlight the top paying oppurtunities for Data Analysts, offering insights into employment
@@ -19,7 +19,7 @@ FROM
 LEFT JOIN
     company_dim ON job_postings_fact.company_id = company_dim.company_id
 WHERE 
-    job_title_short = 'Data Analyst' AND job_location = 'New York'
+    job_title_short = 'Data Analyst' AND (job_location = 'New York' OR job_location = 'Anywhere')
     AND salary_year_avg IS NOT NULL
 ORDER BY
     salary_year_avg DESC
